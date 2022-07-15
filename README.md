@@ -57,3 +57,13 @@ Website that is a conference room reservation system.
     - Manager Login:
         - username: manager@apple.com
         - pw: hireme3
+   
+## Screen Flow
+- New User:
+    - login.html -> Sign up btn -> Sign up successfully -> member.html
+- For member:
+    - login.html -> Sign-in -> member.html
+- For admin:
+    - login.html -> Sign-in -> admin.html
+- For manager:
+    - login.html -> Sign-in -> manager.html
