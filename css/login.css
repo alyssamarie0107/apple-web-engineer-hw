@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {font-family: Helvetica, sans-serif;}
+
+header {padding: 25px;}
+
+h1 {
+    color: #57acdc;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {width: 35vw;}
+
+label {
+    color: white;
+    font-weight: bold;
+}
+
+button:focus {
+    outline: none;
+    border: none;
+}
+
+#loginBtn,
+#createBtn {
+    color: white;
+    background-color: #57acdc;
+}
+
+#signUpBtn {
+    color: #57acdc;
+    background-color: transparent;
+    border: 1px solid #57acdc;
+}
+
+#signUpBtn:hover {
+    color: white;
+    background-color: #57abdc49;
+}
+
+#loginErrorMsg,
+#passwordErrorMsg,
+#createAccountErrorMsg {
+    display: none;
+    color: red;
+}
+
+.modal-header{border-bottom-color: rgb(54, 54, 54);}
+
+.modal-title{color: #57acdc;}
+
+.modal-footer{border-top-color: rgb(54, 54, 54);}
