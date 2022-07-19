@@ -13,7 +13,7 @@ Website that is a conference room reservation system.
         - Bootstrap
     - **Database used:**
         - Firebase's Cloud Firestore 
-        - Chose this Cloud Firestore  the Firebase's Realtime Database because it builds on the successes of the Realtime Database, but with a new, more intuitive data model. Also features richer, faster quieries and scales further than the Realtime Database. 
+        - Chose this Cloud Firestore over the Firebase's Realtime Database because it builds on the successes of the Realtime Database, but with a new, more intuitive data model. Also features richer, faster quieries and scales further than the Realtime Database. 
 - [x] Supports the following three roles:
     - **Member:** able to reserve a room.
     - **Admin:** approves/denies room reservations.
